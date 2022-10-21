@@ -1,5 +1,4 @@
 ![](https://github.com/aryanprince/dotfiles/blob/main/assets/terminal.gif)
-Current setup
 
 # Aryan's dotfiles
 Here's some details about my setup:
