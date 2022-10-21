@@ -5,8 +5,8 @@ Here's some details about my setup:
 - **OS**: Windows 11 + Ubuntu 20.04 WSL2
 - **Terminal**: Windows Terminal
 - **Shell**: PowerShell
-- **System Info Generator** (the one showing the pretty logos and stats): [WinFetch for Windows](https://github.com/lptstr/winfetch) and [NeoFetch for Linux](https://github.com/dylanaraps/neofetch)
-- **Wallpaper**: [This Koi wallpaper from Wallpaper Engine](https://steamcommunity.com/sharedfiles/filedetails/?id=2200250797)
+- **System Info Tools?** (those pretty logos and stats): [WinFetch for Windows](https://github.com/lptstr/winfetch) and [NeoFetch for Linux](https://github.com/dylanaraps/neofetch)
+- **Wallpaper**: [This Koi wallpaper](https://steamcommunity.com/sharedfiles/filedetails/?id=2200250797) from Wallpaper Engine
 - **Editor**: VS Code + Neovim (only for quick edits)
 - **Browser**: Edge
 
@@ -17,7 +17,7 @@ _Wait...it's all Microsoft? Always has been_
 - [Git](https://gitforwindows.org/) - Huh...wonder what this is
 - [Scoop](https://scoop.sh/) - A command-line installer, like ``sudo apt get`` for Windows
 - [Terminal Icons](https://github.com/devblackops/Terminal-Icons) - Folder and file icons in the terminal, pretty but heavy on cold boot
-- [PSReadLine](https://docs.microsoft.com/en-us/powershell/module/psreadline/) - Cmdlets used for autocompletion and a few shortcuts 
+- [PSReadLine](https://docs.microsoft.com/en-us/powershell/module/psreadline/) - Cmdlets used for autocompletion and a few custom shortcuts 
 - [PSFzf](https://github.com/kelleyma49/PSFzf) - Fuzzy finder, set to Ctrl+R using PSRealLine
 - [z](https://www.powershellgallery.com/packages/z) - Wow, this one's crazy - learns most _cd_-ed folders and can help jump to them with just a few letters 
 
