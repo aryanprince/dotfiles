@@ -1,1 +1,1 @@
-. $env:USERPROFILE\.config\powershell\user_profile.ps1
+. $env:USERPROFILE\.config\powershell\posh.ps1
