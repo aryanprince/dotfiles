@@ -1,6 +1,6 @@
 # --- INITIALIZE ---
 # Initializes Oh My Posh and sets my theme
-oh-my-posh init pwsh --config 'C:\Users\aryan\.config\powershell\aryan.omp.json' | Invoke-Expression
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/takuya.omp.json" | Invoke-Expression
 
 # --- BASIC CUSTOMIZATION ---
 # Loads neat icons for different file types on the terminal (but adds about 800ms to load times)
