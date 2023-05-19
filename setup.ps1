@@ -13,6 +13,7 @@ scoop install pnpm
 scoop install yarn
 scoop install oh-my-posh
 scoop install pyenv
+scoop install yt-dlp
 
 # GUI tools
 scoop install github
@@ -20,7 +21,11 @@ scoop install vscode
 
 # Regular Apps
 scoop install figma
+scoop install notion
+scoop install throttlestop
+scoop install webtorrent
 scoop install fsviewer
+scoop install autohotkey
 scoop install powertoys
 scoop install vlc
 scoop install windows-terminal
