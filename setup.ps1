@@ -1,58 +1,48 @@
-# Install Scoop, confirm with A
+# Install Scoop
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-iwr -useb get.scoop.sh | iex
-# irm get.scoop.sh | iex
+irm get.scoop.sh | iex
 
 # Preparation
-scoop install git
+scoop install main/git
 scoop bucket add extras
 
 # CLI tools
-scoop install nvm
-scoop install pnpm
-scoop install yarn
-scoop install oh-my-posh
-scoop install pyenv
-scoop install yt-dlp
+scoop install main/nvm
+scoop install main/pnpm
+scoop install main/yarn
+scoop install main/oh-my-posh
+scoop install main/pyenv
+scoop install main/yt-dlp
+scoop install main/gh
 
-# GUI tools
-scoop install github
-scoop install vscode
-
-# Regular Apps
-scoop install figma
-scoop install notion
-scoop install throttlestop
-scoop install webtorrent
-scoop install fsviewer
-scoop install autohotkey
-scoop install powertoys
-scoop install vlc
-scoop install windows-terminal
-scoop install windows-terminal-preview
-# scoop install bandizip # Bandizip portable doesn't include context menu options
-# scoop install discord # Installs an ugly portable Discord (
-# scoop install spotify # No Xbox Game Bar integration
-# scoop install whatsapp # Not the new native WhatsApp with Win11 UI
-
-# Temporary uni tools
-scoop install r
-scoop install rtools
-scoop install rstudio
-scoop install android-studio
+# Portable Apps
+scoop install extras/github
+scoop install extras/throttlestop
+scoop install extras/webtorrent
+scoop install extras/fsviewer
+scoop install extras/autohotkey
+scoop install extras/vlc
 
 # Winget apps
-winget install 9NKSQGP7F2NH # WhatsApp
-winget install XPDCFJDKLZJLP8 # Visual Studio 2022
-winget install 9P2W3W81SPPB # Bandizip
-winget install XPDC2RH70K22MN # Discord
-winget install Microsoft.PowerShell # PowerShell
-winget install Microsoft.WindowsTerminal # Terminal
-winget install Microsoft.WindowsTerminal.Preview # Terminal Preview
-winget install Nvidia.GeForceExperience # GeForce Experience
+winget install AgileBits.1Password
+winget install Bandisoft.Bandizip 
+winget install Discord.Discord 
+winget install Figma.Figma 
+winget install Readdle.Spark
+winget install Notion.Notion
+winget install WhatsApp.WhatsApp 
+
+winget install Microsoft.VisualStudio.2022.Community 
+winget install Microsoft.PowerShell 
+winget install Microsoft.WindowsTerminal 
+winget install Microsoft.PowerToys
+winget install Nvidia.GeForceExperience
 
 # Other apps (not available with Scoop / Winget)
-# 1Password - Password Manager
-# Cron - Calendar
-# Spark - Mail
-# VSCode Insiders - for the right click context menu, hopefully comes to stable
+# Cron - Calendar app
+
+# Temporary uni tools
+# scoop install r
+# scoop install rtools
+# scoop install rstudio
+# scoop install android-studio
