@@ -38,6 +38,12 @@ winget install Microsoft.WindowsTerminal
 winget install Microsoft.PowerToys
 winget install Nvidia.GeForceExperience
 
+# Game Launchers
+winget install Valve.Steam
+winget install EpicGames.EpicGamesLauncher
+winget install Ubisoft.Connect
+winget install GOG.Galaxy
+
 # Other apps (not available with Scoop / Winget)
 # Cron - Calendar app
 
