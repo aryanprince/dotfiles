@@ -1,4 +1,4 @@
-![](https://github.com/aryanprince/dotfiles/blob/main/assets/terminal.gif)
+![](https://github.com/aryanprince/dotfiles/blob/main/assets/terminal-ss.png)
 
 # Aryan's dotfiles
 
